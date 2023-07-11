@@ -62,9 +62,9 @@ main {
     padding: 0px 175px;
 }
 
-section{
+section {
     border: 2px solid #272727;
-    padding: 64px 0px;
+    margin: 64px 0px;
 }
 
 .section-heading {
@@ -133,5 +133,30 @@ section{
     color: #272727;
     font-size: 24px;
     font-weight: 700;
+    line-height: 35px;
+}
+
+.optional-section {
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 60px 100px;
+}
+
+.optional-card {
+    text-align: center;
+}
+
+.optional-card img {
+    width: 60px;
+    height: 60px;
+}
+
+.optional-card p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 16px;
+    font-weight: 600;
     line-height: 35px;
 }
