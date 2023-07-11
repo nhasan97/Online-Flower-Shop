@@ -59,7 +59,7 @@
      background-color: rgba(229, 84, 115, 0.10);
      height: 600px;
      padding: 0px 175px;
-     margin-bottom: 114px;
+     /* margin-bottom: 114px; */
      display: flex;
      align-content: space-between;
      align-items: center;
@@ -115,7 +115,7 @@
      display: flex;
      align-items: flex-end;
      justify-content: center;
-     /* margin: 32px 0px; */
+     margin-bottom: 32px;
  }
 
  .card-color-1 {
@@ -150,7 +150,7 @@
      font-size: 20px;
      font-weight: 700;
      line-height: 35px;
-     
+
  }
 
  /* ============== featured flower section ends ==============  */
@@ -277,12 +277,11 @@
  /* ============== instagram section starts ==============  */
 
  .insta-container {
-     /* display: flex;
+     display: flex;
      flex-direction: column;
      align-items: center;
      justify-content: center;
-     gap: 24px; */
-     text-align: center;
+     gap: 24px;
  }
 
  .flower-image-container {
@@ -339,7 +338,7 @@
      align-items: center;
      justify-content: center;
      gap: 24px;
-     padding: 128px 400px;
+     padding: 130px 400px;
  }
 
  .footer-heading {
@@ -347,7 +346,7 @@
  }
 
  .footer-description {
-    text-align: center;
+     text-align: center;
      color: rgba(255, 255, 255, 0.90);
  }
 
