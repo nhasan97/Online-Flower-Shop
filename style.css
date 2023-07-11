@@ -32,6 +32,7 @@ header {
     background-color: rgba(229, 84, 115, 0.10);
     height: 600px;
     padding: 0px 175px;
+    margin-bottom: 114px;
     display: flex;
     align-content: space-between;
     align-items: center;
@@ -55,4 +56,82 @@ header div {
 .header-img {
     width: 100%;
     visibility: hidden;
+}
+
+main {
+    padding: 0px 175px;
+}
+
+section{
+    border: 2px solid #272727;
+    padding: 64px 0px;
+}
+
+.section-heading {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.featured-flower-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.flower-card-container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.flower-card-container div {
+    text-align: center;
+}
+
+.flower-card {
+
+    width: 315px;
+    height: 380px;
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 32px 0px;
+}
+
+.card-color-1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.card-color-2 {
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.card-color-3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.flower-card-img1 {
+    width: 220px;
+    height: 300px;
+}
+
+.flower-card-img2 {
+    width: 270px;
+    height: 270px;
+}
+
+.flower-card-img3 {
+    width: 220px;
+    height: 340px;
+}
+
+.feature-flower-link {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
 }
