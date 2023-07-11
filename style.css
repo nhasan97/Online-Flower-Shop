@@ -8,13 +8,12 @@
 
  .paragraph {
      color: rgba(39, 39, 39, 0.60);
-     font-size: 18px;
+     font-size: 16px;
      font-weight: 400;
      line-height: 30px;
  }
 
  .btn {
-
      padding: 15px 35px;
      background-color: #E55473;
      border-radius: 8px;
@@ -39,7 +38,7 @@
 
  .section-heading {
      color: #272727;
-     font-size: 40px;
+     font-size: 30px;
      font-weight: 800;
  }
 
@@ -73,7 +72,7 @@
 
  .header-heading {
      color: #272727;
-     font-size: 60px;
+     font-size: 58px;
      font-weight: 800;
  }
 
@@ -102,7 +101,7 @@
  .flower-card-container {
      display: flex;
      align-items: center;
-     gap: 24px;
+     gap: 28px;
  }
 
  .flower-card-container div {
@@ -110,14 +109,13 @@
  }
 
  .flower-card {
-
      width: 315px;
      height: 380px;
      border-radius: 300px 300px 0px 0px;
      display: flex;
      align-items: flex-end;
      justify-content: center;
-     margin: 32px 0px;
+     /* margin: 32px 0px; */
  }
 
  .card-color-1 {
@@ -149,9 +147,10 @@
 
  .feature-flower-link {
      color: #272727;
-     font-size: 24px;
+     font-size: 20px;
      font-weight: 700;
      line-height: 35px;
+     
  }
 
  /* ============== featured flower section ends ==============  */
@@ -172,7 +171,7 @@
 
  .new-section-img-container {
      border-left: 10px solid #E55473;
-     padding: 10px 0px 10px 10px;
+     padding: 10px 0px 10px 20px;
      border-radius: 10px 0px 0px 10px;
  }
 
@@ -243,14 +242,17 @@
      padding: 100px 50px;
  }
 
- /* .hot-deal-section div div {
+ .hot-deal-section div div {
 
-    background-color: #549fe5;
-} */
+     background-color: #549fe5;
+     width: 50%;
+ }
+
+ /* */
 
  .hot-deal-description-container {
      text-align: center;
-     width: 60%;
+     /* width: 60%; */
  }
 
  .hot-deal-description-container>h3,
@@ -258,7 +260,13 @@
      margin-bottom: 24px;
  }
 
- .hot-deal-section>div>div>img {
+ .hot-deal-image-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .hot-deal-image-container>img {
      width: 218px;
      height: 310px;
  }
@@ -269,11 +277,12 @@
  /* ============== instagram section starts ==============  */
 
  .insta-container {
-     display: flex;
+     /* display: flex;
      flex-direction: column;
      align-items: center;
      justify-content: center;
-     gap: 24px;
+     gap: 24px; */
+     text-align: center;
  }
 
  .flower-image-container {
@@ -293,7 +302,7 @@
  /* ============== subscription section starts ==============  */
 
  .subscribe-section div {
-     padding: 80px 0px;
+     padding: 90px 0px;
      background-image: url('images/Rectangle\ 9.png');
      background-repeat: no-repeat;
      background-size: contain;
@@ -330,13 +339,20 @@
      align-items: center;
      justify-content: center;
      gap: 24px;
-     padding: 128px 0px;
+     padding: 128px 400px;
  }
 
- .footer-heading,
- .footer-description,
- footer>small {
+ .footer-heading {
      color: white;
+ }
+
+ .footer-description {
+    text-align: center;
+     color: rgba(255, 255, 255, 0.90);
+ }
+
+ footer>small {
+     color: rgba(255, 255, 255, 0.40);
  }
 
  /* ============== footer ends ==============  */
