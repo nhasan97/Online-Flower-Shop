@@ -25,10 +25,10 @@
 }
 
 header {
-    /* background-image: url('images/pngwing\ 10.png');
+    background-image: url('images/pngwing\ 10.png');
     background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain; */
+    background-position: 745px bottom;
+    background-size: 450px;
     background-color: rgba(229, 84, 115, 0.10);
     height: 600px;
     padding: 0px 175px;
@@ -39,7 +39,7 @@ header {
 
 header div {
     width: 50%;
-    background-color: aqua;
+    background-color: rgba(91, 207, 207, 0.514);
 }
 
 .header-heading {
@@ -48,11 +48,11 @@ header div {
     font-weight: 800;
 }
 
-.header-description{
+.header-description {
     margin: 32px 0px;
 }
 
 .header-img {
     width: 100%;
-
+    visibility: hidden;
 }
