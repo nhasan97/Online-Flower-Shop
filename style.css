@@ -1,300 +1,342 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Lato', sans-serif;
-}
+ /* ============== shared styling starts ==============  */
 
-.paragraph {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-}
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: 'Lato', sans-serif;
+ }
 
-.btn {
+ .paragraph {
+     color: rgba(39, 39, 39, 0.60);
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 30px;
+ }
 
-    padding: 15px 35px;
-    background-color: #E55473;
-    border-radius: 8px;
-    border: none;
-    outline: none;
-    color: white;
-    /* font-size: 20px; */
-    font-size: 18px;
-    font-weight: 700;
-    cursor: pointer;
-}
+ .btn {
 
-header {
-    background-image: url('images/pngwing\ 10.png');
-    background-repeat: no-repeat;
-    background-position: 745px bottom;
-    background-size: 450px;
-    background-color: rgba(229, 84, 115, 0.10);
-    height: 600px;
-    padding: 0px 175px;
-    margin-bottom: 114px;
-    display: flex;
-    align-content: space-between;
-    align-items: center;
-}
+     padding: 15px 35px;
+     background-color: #E55473;
+     border-radius: 8px;
+     border: none;
+     outline: none;
+     color: white;
+     /* font-size: 20px; */
+     font-size: 18px;
+     font-weight: 700;
+     cursor: pointer;
+ }
 
-header div {
-    width: 50%;
-    background-color: rgba(91, 207, 207, 0.514);
-}
+ main {
+     /* padding: 0px 175px; */
+ }
 
-.header-heading {
-    color: #272727;
-    font-size: 60px;
-    font-weight: 800;
-}
+ section {
+     /* border: 2px solid #272727; */
+     margin: 128px 0px;
+     padding: 0px 175px;
+ }
 
-.header-description {
-    margin: 32px 0px;
-}
+ .section-heading {
+     color: #272727;
+     font-size: 40px;
+     font-weight: 800;
+ }
 
-.header-img {
-    width: 100%;
-    visibility: hidden;
-}
+ .section-heading>span {
+     color: #E55473;
+ }
 
-main {
-    /* padding: 0px 175px; */
-}
-
-section {
-    /* border: 2px solid #272727; */
-    margin: 128px 0px;
-    padding: 0px 175px;
-}
-
-.section-heading {
-    color: #272727;
-    font-size: 40px;
-    font-weight: 800;
-}
-
-.featured-flower-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-}
-
-.flower-card-container {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-}
-
-.flower-card-container div {
-    text-align: center;
-}
-
-.flower-card {
-
-    width: 315px;
-    height: 380px;
-    border-radius: 300px 300px 0px 0px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    margin: 32px 0px;
-}
-
-.card-color-1 {
-    background: rgba(167, 33, 98, 0.15);
-}
-
-.card-color-2 {
-    background: rgba(5, 151, 160, 0.15);
-}
-
-.card-color-3 {
-    background: rgba(71, 125, 17, 0.15);
-}
-
-.flower-card-img1 {
-    width: 220px;
-    height: 300px;
-}
-
-.flower-card-img2 {
-    width: 270px;
-    height: 270px;
-}
-
-.flower-card-img3 {
-    width: 220px;
-    height: 340px;
-}
-
-.feature-flower-link {
-    color: #272727;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 35px;
-}
-
-.new-section>div {
-    display: flex;
-    /* gap: 24px; */
-    align-items: center;
-}
-
-.new-section>div div {
-    /* background-color: #111010; */
-    width: 50%;
-}
-
-.new-section-img-container {
-    border-left: 10px solid #E55473;
-    padding: 10px 0px 10px 10px;
-    border-radius: 10px 0px 0px 10px;
-}
-
-.new-section-img-container img {
-    width: 90%;
-}
-
-.new-section-description-container {
-    background-color: #E55473;
-    padding: 96px 20px;
-    border-radius: 0px 10px 10px 0px;
-}
-
-.new-section-description-container p,
-.new-section-description-container h3 {
-    color: white;
-    margin-bottom: 24px;
-}
-
-.new-section-description-container button {
-    color: #E55473;
-    background-color: white;
-}
+ /* ============== shared styling ends ==============  */
 
 
+ /* ============== header starts ==============  */
 
-.optional-section {
-    background-color: rgba(39, 39, 39, 0.05);
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    gap: 100px;
-    padding: 60px 100px;
-}
+ header {
+     background-image: url('images/pngwing\ 10.png');
+     background-repeat: no-repeat;
+     background-position: 745px bottom;
+     background-size: 450px;
+     background-color: rgba(229, 84, 115, 0.10);
+     height: 600px;
+     padding: 0px 175px;
+     margin-bottom: 114px;
+     display: flex;
+     align-content: space-between;
+     align-items: center;
+ }
 
-.optional-card {
-    text-align: center;
-}
+ header div {
+     width: 50%;
+     background-color: rgba(91, 207, 207, 0.514);
+ }
 
-.optional-card img {
-    width: 60px;
-    height: 60px;
-}
+ .header-heading {
+     color: #272727;
+     font-size: 60px;
+     font-weight: 800;
+ }
 
-.optional-card p {
-    color: rgba(39, 39, 39, 0.80);
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 35px;
-}
+ .header-description {
+     margin: 32px 0px;
+ }
 
-.hot-deal-section {
-    background-color: rgba(229, 84, 115, 0.05);
-}
+ .header-img {
+     width: 100%;
+     visibility: hidden;
+ }
 
-.hot-deal-section>div {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 100px 50px;
-}
+ /* ============== header ends ==============  */
 
-/* .hot-deal-section div div {
+
+ /* ============== featured flower section starts ==============  */
+
+ .featured-flower-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 24px;
+ }
+
+ .flower-card-container {
+     display: flex;
+     align-items: center;
+     gap: 24px;
+ }
+
+ .flower-card-container div {
+     text-align: center;
+ }
+
+ .flower-card {
+
+     width: 315px;
+     height: 380px;
+     border-radius: 300px 300px 0px 0px;
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     margin: 32px 0px;
+ }
+
+ .card-color-1 {
+     background: rgba(167, 33, 98, 0.15);
+ }
+
+ .card-color-2 {
+     background: rgba(5, 151, 160, 0.15);
+ }
+
+ .card-color-3 {
+     background: rgba(71, 125, 17, 0.15);
+ }
+
+ .flower-card-img1 {
+     width: 220px;
+     height: 300px;
+ }
+
+ .flower-card-img2 {
+     width: 270px;
+     height: 270px;
+ }
+
+ .flower-card-img3 {
+     width: 220px;
+     height: 340px;
+ }
+
+ .feature-flower-link {
+     color: #272727;
+     font-size: 24px;
+     font-weight: 700;
+     line-height: 35px;
+ }
+
+ /* ============== featured flower section ends ==============  */
+
+
+ /* ============== customized bouquet section starts ==============  */
+
+ .new-section>div {
+     display: flex;
+     /* gap: 24px; */
+     align-items: center;
+ }
+
+ .new-section>div div {
+     /* background-color: #111010; */
+     width: 50%;
+ }
+
+ .new-section-img-container {
+     border-left: 10px solid #E55473;
+     padding: 10px 0px 10px 10px;
+     border-radius: 10px 0px 0px 10px;
+ }
+
+ .new-section-img-container img {
+     width: 90%;
+ }
+
+ .new-section-description-container {
+     background-color: #E55473;
+     padding: 96px 20px;
+     border-radius: 0px 10px 10px 0px;
+ }
+
+ .new-section-description-container p,
+ .new-section-description-container h3 {
+     color: white;
+     margin-bottom: 24px;
+ }
+
+ .new-section-description-container button {
+     color: #E55473;
+     background-color: white;
+ }
+
+ /* ============== customized bouquet section ends ==============  */
+
+
+ /* ============== optional section starts ==============  */
+
+ .optional-section {
+     background-color: rgba(39, 39, 39, 0.05);
+     border-radius: 8px;
+     display: flex;
+     align-items: center;
+     gap: 100px;
+     padding: 60px 100px;
+ }
+
+ .optional-card {
+     text-align: center;
+ }
+
+ .optional-card img {
+     width: 60px;
+     height: 60px;
+ }
+
+ .optional-card p {
+     color: rgba(39, 39, 39, 0.80);
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 35px;
+ }
+
+ /* ============== optional section ends ==============  */
+
+
+ /* ============== hot deal section starts ==============  */
+
+ .hot-deal-section {
+     background-color: rgba(229, 84, 115, 0.05);
+ }
+
+ .hot-deal-section>div {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     padding: 100px 50px;
+ }
+
+ /* .hot-deal-section div div {
 
     background-color: #549fe5;
 } */
 
-.hot-deal-description-container {
-    text-align: center;
-    width: 60%;
-}
+ .hot-deal-description-container {
+     text-align: center;
+     width: 60%;
+ }
 
-.hot-deal-description-container>h3,
-p {
-    margin-bottom: 24px;
-}
+ .hot-deal-description-container>h3,
+ p {
+     margin-bottom: 24px;
+ }
 
-.section-heading>span {
-    color: #E55473;
-}
+ .hot-deal-section>div>div>img {
+     width: 218px;
+     height: 310px;
+ }
 
-.hot-deal-section>div>div>img {
-    width: 218px;
-    height: 310px;
-}
+ /* ============== hot deal section ends ==============  */
 
-.insta-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-}
 
-.flower-image-container {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-}
+ /* ============== instagram section starts ==============  */
 
-.flower-image-container img {
-    width: 232px;
-    height: 280px;
-}
+ .insta-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 24px;
+ }
 
-.subscribe-section div {
-    padding: 80px 0px;
-    background-image: url('images/Rectangle\ 9.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+ .flower-image-container {
+     display: flex;
+     align-items: center;
+     gap: 24px;
+ }
 
-.subscription-form {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-}
+ .flower-image-container img {
+     width: 232px;
+     height: 280px;
+ }
 
-.subscription-form input[type="email"] {
-    padding: 15px 35px;
-    width: 400px;
-    border-radius: 8px;
-    background: #FFF;
-    border: none;
-    outline: none;
-}
+ /* ============== instagram section ends ==============  */
 
-footer {
-    background-color: #111010;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-    padding: 128px 0px;
-}
 
-.footer-heading,
-.footer-description,
-footer>small {
-    color: white;
-}
+ /* ============== subscription section starts ==============  */
+
+ .subscribe-section div {
+     padding: 80px 0px;
+     background-image: url('images/Rectangle\ 9.png');
+     background-repeat: no-repeat;
+     background-size: contain;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .subscription-form {
+     display: flex;
+     align-items: center;
+     gap: 16px;
+ }
+
+ .subscription-form input[type="email"] {
+     padding: 15px 35px;
+     width: 400px;
+     border-radius: 8px;
+     background: #FFF;
+     border: none;
+     outline: none;
+ }
+
+ /* ============== subscription section ends ==============  */
+
+
+ /* ============== footer starts ==============  */
+
+ footer {
+     background-color: #111010;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 24px;
+     padding: 128px 0px;
+ }
+
+ .footer-heading,
+ .footer-description,
+ footer>small {
+     color: white;
+ }
+
+ /* ============== footer ends ==============  */
